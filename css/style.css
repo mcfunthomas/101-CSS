@@ -1,0 +1,302 @@
+/* ************************* */
+/* ******* GENERAL ********* */
+/* ************************* */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+}
+
+.clear {
+  clear: both; /* clears left and right floats */
+}
+
+/* ************************* */
+/* ******** HEADER ********* */
+/* ************************* */
+
+header {
+  background: #fff;
+}
+
+.float-left {
+  float: left;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+/* ************************* */
+/* ********* LEFT ********** */
+/* ************************* */
+
+.first {
+  width: 15%;
+  min-width: 1px;
+  visibility: hidden;
+  font-size: 1px;
+}
+
+.table-example1 {
+  background: white;
+  padding: 2.6rem 0 0 4%;
+  min-width: 700px;
+  width: 40%;
+  text-align: left;
+}
+
+/* ************************* */
+/* ********* RIGHT ********* */
+/* ************************* */
+
+.table-example2 {
+  background: #fff;
+  min-width: 670px;
+  text-align: left;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 40%;
+}
+
+header div a {
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 0 5.3rem 0 0;
+  text-decoration: none;
+  color: #000;
+}
+
+header nav a:hover {
+  font-weight: 600;
+}
+
+#a--first {
+  margin-left: 4%;
+}
+
+#a--last {
+  /* padding: 0; */
+}
+
+img.rocket {
+  width: 280px;
+}
+a img:hover {
+  padding: 0.2em;
+}
+
+/* ************************* */
+/* ****** MAIN BODY ******** */
+/* ************************* */
+
+.bckgd {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../images/spacex-800w.jpg");
+  background-position: 40% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  height: 800px;
+  min-width: 1280px;
+  width: 100%;
+}
+
+.main-text {
+  padding: 13.4rem 0 0 4%;
+  min-width: 700px;
+  color: #fff;
+}
+
+.main {
+  font-size: 3.7rem;
+  padding-right: 15%;
+  margin-top: 0em;
+  margin-bottom: 0.1em;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+main p {
+  font-size: 1.7rem;
+  padding-right: 20%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-weight: 100;
+}
+
+a.button1 {
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  border: 0.1em solid #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0.07rem;
+}
+
+a.button1:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a.button1:active {
+  background-color: #fff;
+  color: rgba(70, 40, 0, 0.9);
+  border: 0;
+  padding: 0.98rem 1.45rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* ************************** */
+/* ******* Contact Us ******* */
+/* ******** General ********* */
+/* ************************** */
+
+.invisible {
+  margin: 0;
+  visibility: hidden;
+}
+
+.narrow {
+  width: 74%;
+  margin: 0 auto;
+}
+
+/* ************************** */
+/* ******* Contact Us ******* */
+/* ********* Header ********* */
+/* ************************** */
+
+.shadow {
+  box-shadow: 0px 1px 3px rgba(145, 145, 145, 0.8);
+  font-size: 2px;
+  color: #fff;
+  min-width: 1080px;
+}
+
+/* **************************** */
+/* ******* Contact Info ******* */
+/* **************************** */
+
+.info {
+  margin: 2rem 0 0 3%;
+  background: white;
+  min-width: 440px;
+  width: 47.5%;
+}
+
+#contact-word {
+  font-size: 4rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.contact {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.us {
+  padding: 0 1.5rem 1em 0;
+}
+
+.heavy-font {
+  text-decoration: none;
+  color: #000;
+}
+.heavy-font:hover {
+  font-weight: 600;
+}
+
+/* *************************** */
+/* ****** Contact Form ******* */
+/* *************************** */
+
+.contact-form {
+  padding: 2% 0;
+  min-width: 576px;
+  width: 48%;
+  text-align: left;
+  background-color: #fff;
+}
+
+label {
+  text-transform: capitalize;
+}
+
+.label {
+  margin: 0 1.5rem 1.5em 0;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+input,
+textarea {
+  display: block;
+  background: rgb(240, 240, 240);
+  border: 1px solid #ccc;
+  width: 95%;
+  padding: 0.1em 0 0.1em 0.4em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  font-size: 1.3rem;
+}
+
+input:focus,
+textarea:focus {
+  background: rgba(70, 70, 70, 10%);
+}
+
+input:active,
+textarea:active {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+a.button2 {
+  display: inline-block;
+  width: 95%;
+  padding: 1rem 2rem;
+  border: 1px solid #c1c1c1;
+  color: #333;
+  text-decoration: none;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0.07rem;
+}
+
+a.button2:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+a.button2:active {
+  border: 0.1em solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
