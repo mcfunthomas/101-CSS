@@ -42,8 +42,8 @@ table {
 }
 
 .centred {
-  min-height: 6rem;
   margin: 0 auto;
+  min-height: 6rem;
   width: 80%;
 }
 
@@ -52,9 +52,7 @@ table {
   float: left;
 }
 
-/* ************************* */
 /* ********* LEFT ********** */
-/* ************************* */
 
 .left {
   width: 50%;
@@ -62,8 +60,8 @@ table {
 
 .rocket {
   text-align: right;
-  width: 250px;
   padding-bottom: 0.3rem;
+  width: 250px;
 }
 
 .right-pad {
@@ -74,18 +72,16 @@ a img:hover {
   padding: 0.3em 0.2em 0 0.2em;
 }
 
-/* ************************* */
 /* ********* RIGHT ********* */
-/* ************************* */
 
 header nav a {
+  color: #111;
   display: inline-block;
+  font-size: 1.1rem;
   margin: 10px;
   text-align: center;
-  font-size: 1.1rem;
-  text-transform: uppercase;
   text-decoration: none;
-  color: #111;
+  text-transform: uppercase;
 }
 
 a.menu {
@@ -93,23 +89,18 @@ a.menu {
   text-decoration: none;
 }
 
-a.first {
+.first {
   padding: 0 2rem 0 0;
 }
 
-a.middle {
+.middle,
+.last {
   padding: 0 2rem;
 }
 
-a.last {
-  padding: 0 0 0 2rem;
-  line-height: 0;
-  text-decoration: none;
-}
-
-header nav a:hover {
-  font-weight: 600;
+header table a:hover {
   font-size: 1.08rem;
+  font-weight: 600;
 }
 
 /* ************************* */
@@ -123,66 +114,62 @@ header nav a:hover {
       rgba(0, 0, 0, 0.8)
     ),
     url("../images/spacex-800w.jpg");
+  background-attachment: fixed;
+  background-color: #464646;
   background-position: 40% 50%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
-  background-color: #464646;
   height: 800px;
   min-width: 1280px;
   width: 100%;
 }
 
-.top-line {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
 .main-text {
-  float: right;
-  padding-top: 13.4rem;
-  min-width: 720px;
-  width: 45%;
   color: #fff;
-  min-height: 6rem;
+  float: right;
   margin-right: 35%;
+  padding-top: 13.4rem;
+  width: 45%;
+  min-width: 720px;
+  min-height: 6rem;
 }
 
 .main {
   font-size: 3.7rem;
+  font-weight: 300;
   margin-top: 0em;
   margin-bottom: 0.1em;
-  font-weight: 300;
   text-transform: capitalize;
 }
 
-p.your-rocket {
+.your-rocket {
   font-size: 1.7rem;
+  font-weight: 100;
   margin-top: 1em;
   margin-bottom: 2em;
-  font-weight: 100;
 }
 
-a.button1 {
-  display: inline-block;
-  padding: 1rem 2rem;
-  color: #ffffff;
+.button1 {
   border: 0.1em solid #ffffff;
-  text-decoration: none;
-  font-weight: 300;
-  text-transform: uppercase;
-  text-align: center;
+  color: #ffffff;
+  display: inline-block;
   font-size: 1rem;
+  font-weight: 300;
   letter-spacing: 0.07rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-a.button1:hover {
-  color: #000000;
+.button1:hover {
   background-color: #ffffff;
+  color: #000000;
 }
 
-a.button1:active {
-  padding: 1rem 1.95rem;
+.button1:active {
   font-weight: 600;
+  padding: 1rem 1.95rem;
 }
 
 .section-header,
@@ -191,10 +178,10 @@ a.button1:active {
 }
 
 .section-header {
+  font-size: 2.4rem;
+  font-weight: 300;
   margin: 5rem 6rem 3rem 6rem;
   text-align: center;
-  font-weight: 300;
-  font-size: 2.4rem;
 }
 
 .waste-text {
@@ -204,8 +191,8 @@ a.button1:active {
 }
 
 .why {
-  font-weight: 600;
   font-size: 1.2rem;
+  font-weight: 600;
   margin: 1rem auto;
   width: 70%;
 }
@@ -221,10 +208,12 @@ a.button1:active {
 }
 
 .contact-in-text {
-  color: rgb(0, 60, 120);
   border: 2px solid rgb(0, 60, 120);
-  font-size: 0.9rem;
-  padding: 0.2rem 0.2rem 0.1rem 0.2rem;
+  color: rgb(0, 60, 120);
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.3rem 0.1rem;
+  vertical-align: text-top;
 }
 
 /* ************************** */
@@ -238,26 +227,26 @@ footer {
   width: 95%;
 }
 
-/* ************************** */
-/* ******* Contact Us ******* */
-/* ******** General ********* */
-/* ************************** */
+/* ******************************* */
+/* ******************************* */
+/* ******* Contact Us Page ******* */
+/* ******************************* */
+/* ******************************* */
 
-.invisible {
-  margin: 0;
-  visibility: hidden;
-  font-size: 2px;
+.top-line {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .narrow {
-  width: 74%;
   margin: 0 auto;
+  width: 74%;
 }
 
-/* ***************************** */
-/* ***** Main & Contact Us ***** */
-/* *********** Header ********** */
-/* ***************************** */
+.invisible {
+  font-size: 2px;
+  margin: 0;
+  visibility: hidden;
+}
 
 /* ******************************* */
 /* ********* Contact Info ******** */
@@ -265,8 +254,8 @@ footer {
 /* ******************************* */
 
 .info {
-  margin: 2rem 0.5% 0 3%;
   background: white;
+  margin: 2rem 0.5% 0 3%;
   min-width: 450px;
   width: 44.5%;
 }
@@ -287,8 +276,8 @@ footer {
 }
 
 .heavy-font {
-  text-decoration: none;
   color: #000;
+  text-decoration: none;
 }
 .heavy-font:hover {
   font-weight: 600;
@@ -300,11 +289,11 @@ footer {
 /* ******************************* */
 
 .contact-form {
-  padding: 2.3rem 0 2.3rem 3%;
-  min-width: 400px;
-  width: 48%;
-  text-align: left;
   background-color: #fff;
+  min-width: 400px;
+  padding: 2.3rem 0 2.3rem 3%;
+  text-align: left;
+  width: 48%;
 }
 
 label {
@@ -312,22 +301,22 @@ label {
 }
 
 .label {
-  margin: 0 0 1.5em 0;
   font-size: 1.3rem;
   line-height: 1.5;
+  margin: 0 0 1.5em 0;
 }
 
 input,
 textarea {
-  display: block;
   background: rgb(240, 240, 240);
   border: 1px solid #ccc;
-  width: 95%;
-  padding: 0.1em 0 0.1em 0.4em;
+  display: block;
   font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
   font-weight: 100;
   letter-spacing: 1.5px;
-  font-size: 1.3rem;
+  padding: 0.1em 0 0.1em 0.4em;
+  width: 95%;
 }
 
 input:focus,
@@ -342,25 +331,25 @@ textarea:active {
 
 a.button2 {
   display: inline-block;
-  width: 95%;
-  padding: 1rem 2rem;
   border: 1px solid #c1c1c1;
   color: #333;
-  text-decoration: none;
-  font-weight: 300;
-  text-transform: uppercase;
-  text-align: center;
   font-size: 1rem;
+  font-weight: 300;
   letter-spacing: 0.07rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 95%;
 }
 
 a.button2:hover {
-  color: #fff;
   background-color: #000;
+  color: #fff;
 }
 
 a.button2:active {
-  border: 0.1em solid rgba(0, 0, 0, 0.1);
   background-color: rgba(0, 0, 0, 0.4);
+  border: 0.1em solid rgba(0, 0, 0, 0.1);
   color: #fff;
 }
