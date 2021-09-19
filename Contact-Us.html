@@ -92,8 +92,13 @@
           <form action="success.html" method="get">
             <div class="label">
               <label>
-                name:
-                <input name="name" type="text" />
+                Name:
+                <input
+                  name="name"
+                  type="text"
+                  placeholder="John Brown"
+                  required
+                />
               </label>
             </div>
 
@@ -107,19 +112,27 @@
             <div class="label">
               <label>
                 email:
-                <input name="email" placeholder="email@post.com" type="email" />
+                <input
+                  name="email"
+                  placeholder="email@post.com"
+                  type="email"
+                  required
+                />
               </label>
             </div>
 
             <div class="label">
               <label
                 >message:
-                <textarea name="textarea" cols="30" rows="20"></textarea>
+                <textarea
+                  name="textarea"
+                  cols="30"
+                  rows="20"
+                  required
+                ></textarea>
               </label>
             </div>
-            <div class="label">
-              <a href="success.html" class="button2 clear">submit</a>
-            </div>
+            <button class="button2 label clear">submit</button>
           </form>
         </section>
       </div>

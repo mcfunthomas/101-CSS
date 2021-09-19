@@ -362,7 +362,8 @@ textarea:active {
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-a.button2 {
+.button2 {
+  background-color: rgba(0, 0, 0, 0);
   border: 1px solid #c1c1c1;
   color: #333;
   display: inline-block;
@@ -376,12 +377,12 @@ a.button2 {
   width: 95%;
 }
 
-a.button2:hover {
+.button2:hover {
   background-color: #000;
   color: #fff;
 }
 
-a.button2:active {
+.button2:active {
   background-color: rgba(0, 0, 0, 0.4);
   border: 0.1em solid rgba(0, 0, 0, 0.1);
   color: #fff;
